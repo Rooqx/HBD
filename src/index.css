@@ -1,0 +1,40 @@
+:root {
+  --color-soft-pink: #FFC0CB;
+  --color-rose-gold: #B76E79;
+  --color-creamy-white: #FFFDD0;
+  --color-dark-text: #4A4A4A;
+  
+  --font-header: 'Lora', serif;
+  --font-body: 'Open Sans', sans-serif;
+  --font-decorative: 'Great Vibes', cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-creamy-white); /* Fallback */
+  color: var(--color-dark-text);
+  overflow: hidden; /* Prevent scroll during 3D experience */
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Utilities */
+.decorative {
+  font-family: var(--font-decorative);
+}
+
+.header-text {
+  font-family: var(--font-header);
+}
